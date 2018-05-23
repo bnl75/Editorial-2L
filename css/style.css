@@ -2,6 +2,7 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -67,6 +68,16 @@ nav {
 .titulo {
 	font-size: 80%;
 	text-align: justify;
+}
+
+.arriba {
+	z-index: 100;
+}
+
+.txtNegro {
+	color: black;
+	font-weight: bold;
+	text-shadow: 5px 2px 4px white;
 }
 
 @media only screen and (min-width: 620px) {
