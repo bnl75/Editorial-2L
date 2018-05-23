@@ -4,5 +4,5 @@ $(document).ready(function(){
 	$('.parallax').parallax();
 	$('.materialboxed').materialbox();
 	$('input#input_text, textarea#textarea2').characterCounter();
-	$(".dropdown-trigger").dropdown();
+	$(".dropdown-trigger").dropdown({ hover: false });
 });
